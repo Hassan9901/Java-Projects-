@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 50, 0),rgba(0, 0, 50, 0)),url(images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: tahoma;
+}
+.navbar1{
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+.navbar1 h1{
+    font-family: Ranchers;
+    font-size: 40px;
+    float: left;
+    color: white;
+    margin-top: 20px;
+    margin-left: 80px;
+    user-select: none;
+    transition: all 0.6s linear;
+}
+.navbar1 h1:hover{
+    font-size: 45px;
+    color: orangered;
+    text-shadow: 5px 5px 5px white;
+}
+.navbar1 ul{
+    float: right;
+    margin-right: 80px;
+}
+.navbar1 ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar1 ul li a{
+    
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: tahoma;
+    border: 1px solid orangered;
+    padding: 8px 15px 8px 15px;
+    transition: all 0.6s linear;
+    border-radius: 15px 15px;
+}
+.navbar1 ul li a:hover{
+    background: orangered;
+    padding: 15px;
+    
+}
+
+.text{
+    margin-top: 100px;
+    color: white;
+    text-shadow:5px 5px 5px black;
+    
+}
+.text h2{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+.text h1{
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+}
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.form-control{
+    width: 600px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid orangered;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input{
+    height: 45px;
+}
+form .submit{
+    border: 1px solid orangered;
+    background: rgba(255, 69, 0, 0.5);
+    transition: all 0.6s linear;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+form .submit:hover{
+    background: orangered;
+}
